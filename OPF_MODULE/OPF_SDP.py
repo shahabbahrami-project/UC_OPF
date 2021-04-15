@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Mar 29 21:36:02 2021
-
 @author: bahramis
 """
 
@@ -9,7 +8,6 @@ Created on Mon Mar 29 21:36:02 2021
 # -*- coding: utf-8 -*-
 """
 Created on Mon Mar 29 21:08:39 2021
-
 @author: bahramis
 """
 
@@ -17,11 +15,10 @@ Created on Mon Mar 29 21:08:39 2021
 # -*- coding: utf-8 -*-
 """
 Created on Sat Mar 27 20:15:33 2021
-
 @author: bahramis
 """
 from Ybus import Ybus
-from pypower.api import case30                                                                                                                                               as case
+from pypower.api import case14                                                                                                                                               as case
 from pypower.loadcase import loadcase 
 import numpy as np
 import cvxpy as cp
